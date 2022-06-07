@@ -1,0 +1,229 @@
+.priceComponent {
+    background: var(--white);
+    -webkit-box-shadow: 2px 9px 15px 0px var(--shadow-color); 
+    box-shadow: 2px 9px 15px 0px var(--shadow-color);
+    padding: 1.75em 0;
+}
+
+.priceComponent-top, .priceComponent-core, .priceComponent-bottom {
+    padding: 0 3.75em;
+}
+
+.priceComponent-top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1.75em 0;
+}
+
+.priceComponent-top div + div span {
+    margin: 0 .25em 0 0;
+    font-size: 3em;
+    font-weight:800;
+    color: var(--dark-blue);
+}
+
+.priceComponent-top div + div {
+    display: flex;
+    align-items: center;
+}
+
+.priceComponent-top div:first-of-type {
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.priceComponent-core input[type=range] {
+    width: 400px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+
+input[type=range]::-moz-range-track {
+    height: 5px;
+    background: var(--slider-bg);
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+input[type=range]::-moz-range-thumb {
+    position: relative;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--slider-bg-btn);
+    background-image: url(../public/assets/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 47%;
+    box-shadow: 3px 7px 10px 4px var(--slider-bg);
+    -webkit-appearance: none;
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: var(--slider-bg-btn);
+    background-image: url(../public/assets/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 47%;
+    box-shadow: 3px 7px 10px 4px var(--slider-bg);
+    margin-top: -10px;
+}
+input[type="range"]::-moz-range-progress{
+    background: var(--slider-bg);
+    height: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input[type="range"]::-moz-range-track{
+    background-color: var(--shadow-color);
+    height: 5px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    background: var(--shadow-color);
+    border: none;
+    border-radius: 3px;
+}
+
+.priceComponent-core .billing {
+    margin: 2.75em 0 0 0;
+    text-align: center;
+}
+
+.priceComponent-core .billing span {
+    margin: 0 .25em;
+}
+
+.priceComponent-core .billing span>span:last-of-type {
+    margin: 0 0 0 .25em;
+    padding: 0 .25em;
+    background: var(--discount-bg);
+    color: var(--discount-txt);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.priceComponent-core .billing .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+}
+
+.priceComponent-core .billing .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.priceComponent-core .billing .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--shadow-color);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.priceComponent-core .billing .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.priceComponent-core .billing input:checked + .slider {
+    background-color: var(--slider-bg);
+}
+
+.priceComponent-core .billing input:focus + .slider {
+    /*box-shadow: 0 0 1px #2196F3;*/
+}
+
+.priceComponent-core .billing input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.priceComponent-core .billing .slider.round {
+    border-radius: 34px;
+  }
+  
+  .priceComponent-core .billing .slider.round:before {
+    border-radius: 50%;
+  }
+
+.priceComponent-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0 0 0;
+    padding-top: 1.75em;
+    border-top: 2px solid var(--border-blue);
+}
+
+.priceComponent-bottom ul {
+    padding: 0;
+    list-style-type: none;
+    list-style-image: url(../public/assets/icon-check.svg);
+    
+}
+
+.priceComponent-bottom ul li {
+    margin: .25em 0;
+    padding: 0 0 0 1em;
+}
+
+.priceComponent-bottom button {
+    align-self: center;
+    width: 200px;
+    padding: 1em 2em;
+    cursor: pointer;
+    border-radius: 50px;
+    background: var(--dark-blue);
+    color: var(--white);
+    border: none;
+    font-family: 'Manrope',sans-serif;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
