@@ -2,42 +2,56 @@ import {useState, useRef, useEffect} from 'react';
 
 export default function Pricing(){
 
-    const [pageViews, setPageviews] = useState("_");
+    const [pageViews, setPageviews] = useState();
     const [pricing, setPricing] = useState();
     const yearBtn = document.querySelector('#yearly-Btn');
 
+    /* Datas */
+    const arrViews = ["10000K","50000k","100000k","500000k","1M"];
+    const arrPrices = [8,12,16,24,36];
+
+    /* do and undo the 25% discount */
+    const discount = price =>{
+        setPricing(price * 12 * 0.75);
+    }
+
+    const undiscount = price =>{
+        setPricing(Math.round((price * 1.333) / 12));
+    }
+
+    /* assign values to states */
+
+    const compute = (views, price) => {
+        setPageviews(views);
+        setPricing(price);
+        yearBtn.checked ? discount(price) : setPricing(price);
+    }
+
+    /* toggle button */   
 
     const linkedButton = e => {
-        yearBtn.checked ? setPricing(pricing * 12 - (pricing * 12 *0.25)) : setPricing(Math.round((pricing * 1.333) / 12));
+        yearBtn.checked ? discount(pricing) : undiscount(pricing);
     }
+
+    /* check range values and assign */
 
 
     const linkedInput = e => {
         
         if(e >= 0 && e <= 20){
-            setPageviews("10000k");
-            setPricing(8);
-            yearBtn.checked ? setPricing(8 * 12 - (8 * 12 *0.25)) : setPricing(8);
+            compute(arrViews[0], arrPrices[0]);
         }
         else if(e>= 20 && e <= 40){
-            setPageviews("50000k");
-            setPricing(12);
-            yearBtn.checked ? setPricing(12 * 12 - (12 * 12 *0.25)) : setPricing(12); 
+            compute(arrViews[1], arrPrices[1]);
         }
         else if(e>=40 && e <= 60){
-            setPageviews("100000k");
-            setPricing(16);
-            yearBtn.checked ? setPricing(16 * 12 - (16 * 12 *0.25)) : setPricing(16);
+            compute(arrViews[2], arrPrices[2]);
         }
         else if(e>=60 && e <= 80){
-            setPageviews("500000k");
-            setPricing(24);
-            yearBtn.checked ? setPricing(24 * 12 - (24 * 12 *0.25)) : setPricing(24);
+            compute(arrViews[3], arrPrices[3]);
         }
         else if(e>=80){
-            setPageviews("1M");
-            setPricing(36);
-            yearBtn.checked ? setPricing(36 * 12 - (36 * 12 *0.25)) : setPricing(36);
+            compute(arrViews[4], arrPrices[4]);
         }
     }
 
