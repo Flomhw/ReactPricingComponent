@@ -1,13 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
 body {
   margin: 0;
+  padding:0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --white: hsl(0, 0%, 100%);
+  --main-bg-color: hsl(230, 100%, 99%);
+  --shadow-color: hsl(221.5,86.7%,97.1%);
+  --dark-blue: hsl(227, 35%, 25%);
+  --grayish-blue: hsl(225, 20%, 60%);
+  --border-blue: hsl(224.3, 100%, 95.5%);
+  --discount-bg: hsl(14, 92%, 95%);
+  --discount-txt: hsl(15, 100%, 70%);
+  --slider-bg: hsl(174, 77%, 80%);
+  --slider-bg-btn: hsl(174, 86%, 45%);
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  color: var(--grayish-blue);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  display:grid;
+  place-content: center;
+  position: relative;
+  height: 100vh;
+  padding:0;
+  margin:0;
+  background:var(--main-bg-color);
+}
+
+#root:before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 50%;
+  background: url(../public/assets/bg-pattern.svg) no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+
+.App {
+  z-index: 1;
+}
+
+.headingSection {
+  font-family: 'Manrope', sans-serif;
+  text-align:center;
+  position: relative;
+  margin: 0 0 4em 0;
+}
+
+.headingSection:before{
+  content: "";
+  position: absolute;
+  top: -40%;
+  left:40%;
+  width: 125px;
+  height: 125px;
+  background:url(../public/assets/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  z-index:-1;
+}
+
+.headingSection h1 {
+  color: var(--dark-blue);
+  font-weight: 800;
+}
+
+.headingSection h2 {
+  font-weight: 600;
+  font-size: 15px;
 }
