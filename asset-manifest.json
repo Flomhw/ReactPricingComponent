@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-joblisting-filter/static/css/main.be436f60.css",
-    "main.js": "/React-joblisting-filter/static/js/main.a20cbc43.js",
-    "static/media/logo.svg": "/React-joblisting-filter/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/React-joblisting-filter/index.html",
-    "static/media/bg-header-mobile.svg": "/React-joblisting-filter/static/media/bg-header-mobile.b7750a0c3e0c016763b9.svg",
-    "main.be436f60.css.map": "/React-joblisting-filter/static/css/main.be436f60.css.map",
-    "main.a20cbc43.js.map": "/React-joblisting-filter/static/js/main.a20cbc43.js.map"
+    "main.css": "/git%20ini/static/css/main.69546ef7.css",
+    "main.js": "/git%20ini/static/js/main.09148c5b.js",
+    "static/media/logo.svg": "/git%20ini/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/git%20ini/index.html",
+    "static/media/bg-header-mobile.svg": "/git%20ini/static/media/bg-header-mobile.b7750a0c3e0c016763b9.svg",
+    "main.69546ef7.css.map": "/git%20ini/static/css/main.69546ef7.css.map",
+    "main.09148c5b.js.map": "/git%20ini/static/js/main.09148c5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.be436f60.css",
-    "static/js/main.a20cbc43.js"
+    "static/css/main.69546ef7.css",
+    "static/js/main.09148c5b.js"
   ]
 }
