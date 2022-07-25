@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/PricingComponent/static/css/main.f306f0ca.css",
-    "main.js": "/PricingComponent/static/js/main.f13fcca2.js",
-    "index.html": "/PricingComponent/index.html",
-    "static/media/icon-slider.svg": "/PricingComponent/static/media/icon-slider.cbca35e0d11c560ba351.svg",
-    "static/media/pattern-circles.svg": "/PricingComponent/static/media/pattern-circles.9f6ed14bb3b0084b05a9.svg",
-    "static/media/bg-pattern.svg": "/PricingComponent/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
-    "static/media/icon-check.svg": "/PricingComponent/static/media/icon-check.83c38a48815855ecc2d7.svg",
-    "main.f306f0ca.css.map": "/PricingComponent/static/css/main.f306f0ca.css.map",
-    "main.f13fcca2.js.map": "/PricingComponent/static/js/main.f13fcca2.js.map"
+    "main.css": "/React-joblisting-filter/static/css/main.be436f60.css",
+    "main.js": "/React-joblisting-filter/static/js/main.a20cbc43.js",
+    "static/media/logo.svg": "/React-joblisting-filter/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-joblisting-filter/index.html",
+    "static/media/bg-header-mobile.svg": "/React-joblisting-filter/static/media/bg-header-mobile.b7750a0c3e0c016763b9.svg",
+    "main.be436f60.css.map": "/React-joblisting-filter/static/css/main.be436f60.css.map",
+    "main.a20cbc43.js.map": "/React-joblisting-filter/static/js/main.a20cbc43.js.map"
   },
   "entrypoints": [
-    "static/css/main.f306f0ca.css",
-    "static/js/main.f13fcca2.js"
+    "static/css/main.be436f60.css",
+    "static/js/main.a20cbc43.js"
   ]
 }
