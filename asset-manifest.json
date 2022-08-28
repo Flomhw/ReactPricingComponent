@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PricingComponent/static/css/main.f306f0ca.css",
-    "main.js": "/PricingComponent/static/js/main.f13fcca2.js",
-    "index.html": "/PricingComponent/index.html",
-    "static/media/icon-slider.svg": "/PricingComponent/static/media/icon-slider.cbca35e0d11c560ba351.svg",
-    "static/media/pattern-circles.svg": "/PricingComponent/static/media/pattern-circles.9f6ed14bb3b0084b05a9.svg",
-    "static/media/bg-pattern.svg": "/PricingComponent/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
-    "static/media/icon-check.svg": "/PricingComponent/static/media/icon-check.83c38a48815855ecc2d7.svg",
-    "main.f306f0ca.css.map": "/PricingComponent/static/css/main.f306f0ca.css.map",
-    "main.f13fcca2.js.map": "/PricingComponent/static/js/main.f13fcca2.js.map"
+    "main.css": "/ReactPricingComponent/static/css/main.50b0aad2.css",
+    "main.js": "/ReactPricingComponent/static/js/main.f13fcca2.js",
+    "index.html": "/ReactPricingComponent/index.html",
+    "static/media/icon-slider.svg": "/ReactPricingComponent/static/media/icon-slider.cbca35e0d11c560ba351.svg",
+    "static/media/pattern-circles.svg": "/ReactPricingComponent/static/media/pattern-circles.9f6ed14bb3b0084b05a9.svg",
+    "static/media/bg-pattern.svg": "/ReactPricingComponent/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
+    "static/media/icon-check.svg": "/ReactPricingComponent/static/media/icon-check.83c38a48815855ecc2d7.svg",
+    "main.50b0aad2.css.map": "/ReactPricingComponent/static/css/main.50b0aad2.css.map",
+    "main.f13fcca2.js.map": "/ReactPricingComponent/static/js/main.f13fcca2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f306f0ca.css",
+    "static/css/main.50b0aad2.css",
     "static/js/main.f13fcca2.js"
   ]
 }
