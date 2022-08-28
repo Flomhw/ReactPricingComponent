@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactPricingComponent/static/css/main.50b0aad2.css",
+    "main.css": "/ReactPricingComponent/static/css/main.ba4db481.css",
     "main.js": "/ReactPricingComponent/static/js/main.f13fcca2.js",
     "index.html": "/ReactPricingComponent/index.html",
     "static/media/icon-slider.svg": "/ReactPricingComponent/static/media/icon-slider.cbca35e0d11c560ba351.svg",
     "static/media/pattern-circles.svg": "/ReactPricingComponent/static/media/pattern-circles.9f6ed14bb3b0084b05a9.svg",
     "static/media/bg-pattern.svg": "/ReactPricingComponent/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
     "static/media/icon-check.svg": "/ReactPricingComponent/static/media/icon-check.83c38a48815855ecc2d7.svg",
-    "main.50b0aad2.css.map": "/ReactPricingComponent/static/css/main.50b0aad2.css.map",
+    "main.ba4db481.css.map": "/ReactPricingComponent/static/css/main.ba4db481.css.map",
     "main.f13fcca2.js.map": "/ReactPricingComponent/static/js/main.f13fcca2.js.map"
   },
   "entrypoints": [
-    "static/css/main.50b0aad2.css",
+    "static/css/main.ba4db481.css",
     "static/js/main.f13fcca2.js"
   ]
 }
